@@ -1,0 +1,43 @@
+body {
+    background-color: #ECEEF1;
+}
+
+.centered-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    text-align: center;
+    margin-top:75px;
+    font-family: Lato;
+    color: gray;
+}
+
+.centered-container img {
+    width:200px;
+}
+
+.fa-envira {
+    font-size:25px;
+}
+
+.fa-book-reader {
+    font-size:25px;
+}
+
+.fa-check-circle {
+    font-size:25px;
+}
+
+.mini-nav-bar {
+    font-size:25px;
+    font-weight:lighter;
+}
+
+.registration-form-box {
+    background-color: white;
+    width: 100%;
+    border: 1px solid gray;
+    margin-top:20px;
+    padding-top:20px;
+}
