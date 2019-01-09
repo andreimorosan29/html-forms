@@ -37,7 +37,36 @@ body {
 .registration-form-box {
     background-color: white;
     width: 100%;
-    border: 1px solid gray;
+    border: 1px solid rgb(198, 198, 198);
     margin-top:20px;
     padding-top:20px;
+}
+
+.registration-form-box form {
+    text-align: left;
+    padding-left: 20%;
+}
+
+.registration-form-box input {
+    width: 80%;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 20px;
+    color: black;
+}
+
+.registration-form-box form * {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.registration-form-box button {
+    width: 80%;
+    padding: 10px 20px;
+    background-color: rgb(51, 118, 191);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid white;
 }
