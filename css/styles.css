@@ -1,0 +1,118 @@
+body {
+    background-color: #ECEEF1;
+    height: 110vh;
+}
+
+.centered-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: gray;
+    overflow:hidden;
+}
+
+.centered-container img {
+    width:200px;
+}
+
+.fa-envira {
+    font-size:25px;
+}
+
+.fa-book-reader {
+    font-size:25px;
+}
+
+.fa-check-circle {
+    font-size:25px;
+}
+
+.mini-nav-bar {
+    font-size:25px;
+    font-weight:lighter;
+}
+
+.registration-form-box {
+    background-color: white;
+    width: 100%;
+    border: 1px solid rgb(198, 198, 198);
+    margin-top:20px;
+    padding-top:20px;
+    border-radius:5px;
+}
+
+.registration-form-box form {
+    text-align: left;
+    padding-left: 20%;
+}
+
+.registration-form-box input {
+    width: 80%;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 20px;
+    color: black;
+}
+
+.registration-form-box form * {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.registration-form-box button {
+    width: 80%;
+    padding: 10px 20px;
+    background-color: rgb(51, 118, 191);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid white;
+    cursor:pointer;
+}
+
+.info-text{
+    font-style: italic;
+    font-size: 12px;
+    font-weight: lighter;
+    color: gray;
+    width:60%;
+    text-align:center;
+    margin:0 auto;
+    padding: 20px 0;
+}
+
+.info-text a{
+    text-decoration: none;
+}
+
+.registration-form-box-footer {
+    background-color:#ECEEF1;
+    width: 100%;
+    padding:30px 0;
+    margin:0 auto;
+    font-size:12px;
+    text-decoration: none;
+    color:gray;
+}
+
+.registration-form-box-footer a{
+    text-decoration:none;
+}
+
+.main-footer {
+    margin:0 auto;
+    font-size:12px;
+    color: gray;
+    font-weight: lighter;
+    padding: 40px 0 30px 0;
+}
+
+.main-footer a {
+    text-decoration: none;
+    color: gray;
+
+}
