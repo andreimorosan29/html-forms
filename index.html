@@ -25,23 +25,28 @@
             <h4 style="font-weight:normal;">Create an account for all of Intuit's products <br />
                 including Mint. <a href="#" style="font-size:12px;text-decoration:none;">Learn More</a> </h4>
             <form>
-                <label>
+                <label for="email">
                     Email Address
-                    <input type="email">
                 </label>
-                <label>
+                <input type="email" id="email">
+                
+                <label for="phone">
                     Phone(recomemended)
-                    <input type="tel">
-                    <br>
-                    <small>Standard call, messaging or data rates may apply.</small>
-                    <br>
                 </label>
-                <label>
-                    <br>
+                <input type="tel" id="phone">
+
+                <br>
+                <small>Standard call, messaging or data rates may apply.</small>
+                <br>
+                <br>
+                
+                <label for="password">
                     Password
-                    <br>
-                    <input type="password">
                 </label>
+
+                <br>
+                <input type="password" id="password">
+                
                 <br>
                 <button class="btn btn-default"><i class="fas fa-unlock-alt"></i> &nbsp;Create Account</button>
             </form>
